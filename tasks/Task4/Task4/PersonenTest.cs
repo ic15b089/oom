@@ -48,14 +48,14 @@ namespace Task4
         public void TestePersonenTelefonnummerGleichInitialWert()
         {
             var xp = new Personen(15, "Ben", "Hueber", "Mann", "12.05.1980", 61141972, 67761141972, 1500, "Auf der Schmelz", 52, "ben@yahoo.com");
-            Assert.IsTrue(xp.Telefonnummer == 67761141972);
+            Assert.IsTrue(xp.Telefonnummer == 61141972);
         }
 
         [Test]
         public void TestePersonenHandynummerGleichInitialWert()
         {
             var xp = new Personen(15, "Ben", "Hueber", "Mann", "12.05.1980", 61141972, 67761141972, 1500, "Auf der Schmelz", 52, "ben@yahoo.com");
-            Assert.IsTrue(xp.Handynummer == 61141972);
+            Assert.IsTrue(xp.Handynummer == 67761141972);
         }
 
         [Test]

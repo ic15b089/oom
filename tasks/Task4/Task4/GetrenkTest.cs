@@ -27,7 +27,7 @@ namespace Task4
         public void TesteGetraenkPreisGleichInitialWert()
         {
             var xwge = new Getraenk(14, "Soda", 2.4, "frei");
-            Assert.IsTrue(xwge.Preis == 14);
+            Assert.IsTrue(xwge.Preis == 2.4);
         }
 
         [Test]

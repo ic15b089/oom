@@ -25,19 +25,19 @@ namespace Task4
             //c.Write();
             //Console.WriteLine("------------------------------------");
             
-            Personen d = new Personen(4, "Alex", "Hueber", "maennlich", "01-08-1987" , 01235456, 067761141972, 1500, "Burggasse", 152-2, "alex.hueber@yahoo.com");
+            Personen d = new Personen(4, "Alex", "Hueber", "maennlich", "01-08-1987" , 01235456, 067761141972, 1500, "Burggasse", 152, "alex.hueber@yahoo.com");
             //d.Write();
             //Console.WriteLine("------------------------------------");
             
-            Kunden e = new Kunden(5, "Alex1", "Hueber1", "maennlich1", "01-08-1988", 01235457, 067761141973, 1501, "Burggasse1", 152 - 3, "alex.hueber1@yahoo.com", 1523368);
+            Kunden e = new Kunden(5, "Alex1", "Hueber1", "maennlich1", "01-08-1988", 01235457, 067761141973, 1501, "Burggasse1", 152, "alex.hueber1@yahoo.com", 1523368);
             //e.Write();
             //Console.WriteLine("------------------------------------");
 
-            Liferant f = new Liferant(6, "Alex2", "Hueber2", "maennlich2", "01-08-1989", 01235458, 067761141974, 1502, "Burggasse21", 1502 - 323, "alex.hueber122@yahoo.com", 1500, "IR52668532");
+            Liferant f = new Liferant(6, "Alex2", "Hueber2", "maennlich2", "01-08-1989", 01235458, 067761141974, 1502, "Burggasse21", 15, "alex.hueber122@yahoo.com", 1500, "IR52668532");
             //f.Write();
             //Console.WriteLine("------------------------------------");
 
-            MitarbeiterInnen g = new MitarbeiterInnen(7, "Alex3", "Hueber3", "maennlich3", "01-08-1990", 012354507, 0677611419553, 1501, "Burggasse5", 1515- 3, "alex.hueber25301@yahoo.com", 1550, "Angestelle", "Kassa");
+            MitarbeiterInnen g = new MitarbeiterInnen(7, "Alex3", "Hueber3", "maennlich3", "01-08-1990", 012354507, 0677611419553, 1501, "Burggasse5", 11, "alex.hueber25301@yahoo.com", 1550, "Angestelle", "Kassa");
             //g.Write();
             //Console.WriteLine("------------------------------------");
 

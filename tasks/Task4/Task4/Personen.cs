@@ -119,10 +119,11 @@ namespace Task4
             m_handynummer = handynummer;
             m_plz = plz;
             m_strasse = stasse;
+            m_hausnummer = hausnummer;
             m_email = email;
         }
         //-------------------------------
-        public Personen() : this(-1, string.Empty, string.Empty, string.Empty, string.Empty, 0, 0, -1, string.Empty, -1, string.Empty)
+        public Personen() : this(-1, string.Empty, string.Empty, string.Empty, string.Empty, 0, 0, 0, string.Empty, 0, string.Empty)
         {
 
         }
@@ -139,6 +140,7 @@ namespace Task4
             Console.WriteLine("Handynummer:       {0}", Handynummer);
             Console.WriteLine("Plz:               {0}", Plz);
             Console.WriteLine("Strasse:           {0}", Strasse);
+            Console.WriteLine("Hausnummer         {0}", Hausnummer);
             Console.WriteLine("E-Mail:            {0}", Email);
         }
     }

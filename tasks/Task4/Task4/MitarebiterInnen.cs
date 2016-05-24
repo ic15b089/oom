@@ -42,7 +42,7 @@ namespace Task4
             m_abteilung = abteilung;
         }
         //-------------------------------
-        public MitarbeiterInnen() : this(-1, "", "", "", "", 0, 0, -1, "", -1, "", 0, "", "")
+        public MitarbeiterInnen() : this(-1, "", "", "", "", 0, 0, -1, "", 0, "", 0, "", "")
         {
 
         }
