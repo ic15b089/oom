@@ -30,7 +30,7 @@ namespace Task3
         public override void Write()
         {
             base.Write();
-            Console.WriteLine("Rezept:  {0}", Rezept);
+            Console.WriteLine("Rezept:            {0}", Rezept);
         }
     }
 }

@@ -31,7 +31,7 @@ namespace Task3
         public override void Write()
         {
             base.Write();
-            Console.WriteLine("Alkohol: {0}", Alkohol);
+            Console.WriteLine("Alkohol:           {0}", Alkohol);
         }
     }
 }

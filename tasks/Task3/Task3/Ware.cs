@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    class Ware
+    class Ware : IObjekt
     {
         private int m_id;
 
@@ -42,7 +42,7 @@ namespace Task3
             m_preis = preis;
         }
         //-------------------------------
-        public Ware():this(-1,string.Empty,0)
+        public Ware() : this(-1, string.Empty, 0)
         {
 
         }

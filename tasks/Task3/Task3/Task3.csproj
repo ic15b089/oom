@@ -43,10 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Currency.cs" />
+    <Compile Include="IObjekt.cs" />
+    <Compile Include="Kunden.cs" />
     <Compile Include="Gericht.cs" />
     <Compile Include="Getraenk.cs" />
+    <Compile Include="Liferant.cs" />
+    <Compile Include="MitarebiterInnen.cs" />
+    <Compile Include="Personen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringErweiterungen.cs" />
     <Compile Include="Ware.cs" />
   </ItemGroup>
   <ItemGroup>
